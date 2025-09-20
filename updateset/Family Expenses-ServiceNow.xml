@@ -1,0 +1,1562 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2025-09-19 12:39:25">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Family Expenses</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>3b12f6cec3c436104ea65c65e4013119</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-19 12:39:24</sys_created_on>
+<sys_id>5e378fc6c34836104ea65c65e4013162</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-19 12:39:24</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_daily_expenses_null</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="" table="u_daily_expenses"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Collection"&gt;collection&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_daily_expenses&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-19 11:23:58&lt;/sys_created_on&gt;&lt;sys_id&gt;51f5f606c30836104ea65c65e401316d&lt;/sys_id&gt;&lt;sys_name&gt;u_daily_expenses&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_daily_expenses_null&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-19 11:23:58&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-2086609900</payload_hash>
+<remote_update_set display_value="Family Expenses">5e378fc6c34836104ea65c65e4013162</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-19 12:39:24</sys_created_on>
+<sys_id>1237474ac34836104ea65c65e40131e8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19961b77d520000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-19 12:39:24</sys_updated_on>
+<table>u_daily_expenses</table>
+<target_name>Daily Expenses</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>11f5f606d3083610456cbb5fcabdaa8e</update_guid>
+<update_guid_history>11f5f606d3083610456cbb5fcabdaa8e:-2086609900</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_daily_expenses__en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="" label="Daily Expenses" language="en" table="u_daily_expenses"><sys_documentation action="INSERT_OR_UPDATE"><element/><help/><hint/><label>Daily Expenses</label><language>en</language><name>u_daily_expenses</name><plural>Daily Expenses</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 11:23:58</sys_created_on><sys_id>1df5f606c30836104ea65c65e4013172</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Daily Expenses</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_daily_expenses__en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 11:23:58</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1810142914</payload_hash>
+<remote_update_set display_value="Family Expenses">5e378fc6c34836104ea65c65e4013162</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-19 12:39:24</sys_created_on>
+<sys_id>1237474ac34836104ea65c65e40131eb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19961b77d680000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-19 12:39:24</sys_updated_on>
+<table>u_daily_expenses</table>
+<target_name>Daily Expenses</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>1df5f6066e0836100c30a9ce02697c8f</update_guid>
+<update_guid_history>1df5f6066e0836100c30a9ce02697c8f:1810142914</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_91f5f606c30836104ea65c65e4013159</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><decision_type>allow</decision_type><description>Default access control on u_daily_expenses</description><local_or_existing>Local</local_or_existing><name>u_daily_expenses</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 11:23:58</sys_created_on><sys_id>91f5f606c30836104ea65c65e4013159</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_daily_expenses</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_91f5f606c30836104ea65c65e4013159</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 11:23:58</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>2017282274</payload_hash>
+<remote_update_set display_value="Family Expenses">5e378fc6c34836104ea65c65e4013162</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-19 12:39:24</sys_created_on>
+<sys_id>1237474ac34836104ea65c65e40131ee</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19961b77b300000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-19 12:39:24</sys_updated_on>
+<table>u_daily_expenses</table>
+<target_name>u_daily_expenses</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>d1f5f606530836106920fcaad2d6205b</update_guid>
+<update_guid_history>d1f5f606530836106920fcaad2d6205b:2017282274</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_role_0c037ecec3c436104ea65c65e40131ff</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>u_family_expenses_user</name><scoped_admin>false</scoped_admin><suffix/><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 11:11:03</sys_created_on><sys_id>0c037ecec3c436104ea65c65e40131ff</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_family_expenses_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_user_role_0c037ecec3c436104ea65c65e40131ff</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 11:11:03</sys_updated_on></sys_user_role></record_update>]]></payload>
+<payload_hash>-1870316221</payload_hash>
+<remote_update_set display_value="Family Expenses">5e378fc6c34836104ea65c65e4013162</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-19 12:39:24</sys_created_on>
+<sys_id>1237474ac34836104ea65c65e40131f1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19961aba7910000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-19 12:39:24</sys_updated_on>
+<table/>
+<target_name>u_family_expenses_user</target_name>
+<type>Role</type>
+<update_domain>global</update_domain>
+<update_guid>8403becee4c43610fd83e5ee9004b205</update_guid>
+<update_guid_history>8403becee4c43610fd83e5ee9004b205:-1870316221</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_application_8403becec3c436104ea65c65e401310a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Family Expenditure</name><order>100</order><roles>u_family_expenses_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 11:11:03</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>8403becec3c436104ea65c65e401310a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Family Expenditure</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_application_8403becec3c436104ea65c65e401310a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 11:11:03</sys_updated_on><title>Family Expenditure</title><view_name/></sys_app_application></record_update>]]></payload>
+<payload_hash>-480226752</payload_hash>
+<remote_update_set display_value="Family Expenses">5e378fc6c34836104ea65c65e4013162</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-19 12:39:24</sys_created_on>
+<sys_id>12378fc6c34836104ea65c65e4013163</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19961aba82b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-19 12:39:24</sys_updated_on>
+<table/>
+<target_name>Family Expenditure</target_name>
+<type>Application Menu</type>
+<update_domain>global</update_domain>
+<update_guid>40033a021708361099f3b88bab0d4603</update_guid>
+<update_guid_history>40033a021708361099f3b88bab0d4603:-480226752</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_daily_expenses_u_comments_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_comments" label="Comments" language="en" table="u_daily_expenses"><sys_documentation action="INSERT_OR_UPDATE"><element>u_comments</element><help/><hint/><label>Comments</label><language>en</language><name>u_daily_expenses</name><plural>Comments</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 11:30:08</sys_created_on><sys_id>af577206c30836104ea65c65e401315f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Comments</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_daily_expenses_u_comments_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 11:30:08</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1775975630</payload_hash>
+<remote_update_set display_value="Family Expenses">5e378fc6c34836104ea65c65e4013162</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-19 12:39:24</sys_created_on>
+<sys_id>1637474ac34836104ea65c65e40131ea</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19961bd21070000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-19 12:39:24</sys_updated_on>
+<table>u_daily_expenses</table>
+<target_name>Daily Expenses.Comments</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>2357f28697083610f6d443d12f443185</update_guid>
+<update_guid_history>2357f28697083610f6d443d12f443185:-1775975630</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_18033a02c30836104ea65c65e4013119</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><decision_type>allow</decision_type><description>Default access control on u_family_expenses</description><local_or_existing>Local</local_or_existing><name>u_family_expenses</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 11:11:04</sys_created_on><sys_id>18033a02c30836104ea65c65e4013119</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_family_expenses</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_18033a02c30836104ea65c65e4013119</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 11:11:04</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>136134235</payload_hash>
+<remote_update_set display_value="Family Expenses">5e378fc6c34836104ea65c65e4013162</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-19 12:39:24</sys_created_on>
+<sys_id>1637474ac34836104ea65c65e40131ed</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19961abaa580000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-19 12:39:24</sys_updated_on>
+<table>u_family_expenses</table>
+<target_name>u_family_expenses</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>58033a02df08361046940b03844bbc1b</update_guid>
+<update_guid_history>58033a02df08361046940b03844bbc1b:136134235</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_module_c1f57206c30836104ea65c65e40131c4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Family Expenditure">80033a02c30836104ea65c65e4013109</application><filter/><name>Daily Expenses</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>u_daily_expenses_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 11:23:58</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c1f57206c30836104ea65c65e40131c4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Daily Expenses</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_module_c1f57206c30836104ea65c65e40131c4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 11:23:58</sys_updated_on><table>u_daily_expenses</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+<payload_hash>-928859411</payload_hash>
+<remote_update_set display_value="Family Expenses">5e378fc6c34836104ea65c65e4013162</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-19 12:39:24</sys_created_on>
+<sys_id>1637474ac34836104ea65c65e40131f0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19961b778fc0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-19 12:39:24</sys_updated_on>
+<table>u_daily_expenses</table>
+<target_name>Daily Expenses</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>09f5f606fa083610545545fa801c514f</update_guid>
+<update_guid_history>09f5f606fa083610545545fa801c514f:-928859411</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_family_expenses_u_date</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_date" table="u_family_expenses"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Date&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_date&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value=""&gt;glide_date&lt;/internal_type&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_family_expenses&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-19 11:15:05&lt;/sys_created_on&gt;&lt;sys_id&gt;7f63b242c30836104ea65c65e40131bd&lt;/sys_id&gt;&lt;sys_name&gt;Date&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_family_expenses_u_date&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-19 11:21:27&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1171043289</payload_hash>
+<remote_update_set display_value="Family Expenses">5e378fc6c34836104ea65c65e4013162</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-19 12:39:24</sys_created_on>
+<sys_id>1a37474ac34836104ea65c65e40131e9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19961b52d520000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-19 12:39:24</sys_updated_on>
+<table>u_family_expenses</table>
+<target_name>Family Expenses.Date</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>1465fac2d5083610abb3487105f42dfc</update_guid>
+<update_guid_history>1465fac2d5083610abb3487105f42dfc:1171043289,0fe3fa428508361041a1a2a21e889cdf:379796654</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_relationship_5c8f7ecec30836104ea65c65e4013169</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_relationship"&gt;&lt;sys_relationship action="INSERT_OR_UPDATE"&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;apply_to/&gt;&lt;basic_apply_to&gt;u_family_expenses&lt;/basic_apply_to&gt;&lt;basic_query_from/&gt;&lt;insert_callback/&gt;&lt;name&gt;Daily Expenses&lt;/name&gt;&lt;query_from/&gt;&lt;query_with&gt;&lt;![CDATA[
+(function refineQuery(current, parent) {
+
+
+// Add your code here, such as current.addQuery(field, value);
+
+current.addQuery('u_date',parent.u_date);
+
+current.query();
+
+
+})(current, parent);]]&gt;&lt;/query_with&gt;&lt;reference_field/&gt;&lt;related_list/&gt;&lt;simple_reference&gt;false&lt;/simple_reference&gt;&lt;sys_class_name&gt;sys_relationship&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-19 12:06:16&lt;/sys_created_on&gt;&lt;sys_id&gt;5c8f7ecec30836104ea65c65e4013169&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Daily Expenses&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_relationship_5c8f7ecec30836104ea65c65e4013169&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-19 12:33:22&lt;/sys_updated_on&gt;&lt;/sys_relationship&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=5c8f7ecec30836104ea65c65e4013169"/&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;5c8f7ecec30836104ea65c65e4013169&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-19 12:06:15&lt;/sys_created_on&gt;&lt;sys_id&gt;2caf72cec30836104ea65c65e401313a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-19 12:06:15&lt;/sys_updated_on&gt;&lt;table&gt;sys_relationship&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>424251957</payload_hash>
+<remote_update_set display_value="Family Expenses">5e378fc6c34836104ea65c65e4013162</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-19 12:39:24</sys_created_on>
+<sys_id>1a37474ac34836104ea65c65e40131ec</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19961f702a10000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-19 12:39:24</sys_updated_on>
+<table/>
+<target_name>Daily Expenses</target_name>
+<type>Relationship</type>
+<update_domain>global</update_domain>
+<update_guid>f9d547c6fe483610f73d85a1f9dfaa2f</update_guid>
+<update_guid_history>f9d547c6fe483610f73d85a1f9dfaa2f:424251957,30afb20288483610187ad01ab95af12e:-1810284303</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_d5f5f606c30836104ea65c65e401315c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 11:23:58</sys_created_on><sys_id>d5f5f606c30836104ea65c65e401315c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_daily_expenses.u_daily_expenses_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_daily_expenses">91f5f606c30836104ea65c65e4013159</sys_security_acl><sys_update_name>sys_security_acl_role_d5f5f606c30836104ea65c65e401315c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 11:23:58</sys_updated_on><sys_user_role display_value="u_daily_expenses_user" name="u_daily_expenses_user">4df57206c30836104ea65c65e40131ba</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>675059516</payload_hash>
+<remote_update_set display_value="Family Expenses">5e378fc6c34836104ea65c65e4013162</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-19 12:39:24</sys_created_on>
+<sys_id>1a37474ac34836104ea65c65e40131ef</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19961b77b550000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-19 12:39:24</sys_updated_on>
+<table>u_daily_expenses</table>
+<target_name>u_daily_expenses.u_daily_expenses_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>59f5f6063f0836109488156df005125e</update_guid>
+<update_guid_history>59f5f6063f0836109488156df005125e:675059516</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_08033a02c30836104ea65c65e4013104</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Family Expenditure">8403becec3c436104ea65c65e401310a</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Family Expenses</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>u_family_expenses</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>u_family_expenses_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 11:11:03</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>08033a02c30836104ea65c65e4013104</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Family Expenses</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_08033a02c30836104ea65c65e4013104</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 11:11:03</sys_updated_on><timeline_page/><title>Family Expenses</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>-2049714386</payload_hash>
+<remote_update_set display_value="Family Expenses">5e378fc6c34836104ea65c65e4013162</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-19 12:39:24</sys_created_on>
+<sys_id>1a378fc6c34836104ea65c65e4013163</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19961aba8770000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-19 12:39:24</sys_updated_on>
+<table>u_family_expenses</table>
+<target_name>Family Expenses</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>88033a028d083610e9fd2f1d3febe407</update_guid>
+<update_guid_history>88033a028d083610e9fd2f1d3febe407:-2049714386</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_daily_expenses_u_expense</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_expense" table="u_daily_expenses"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Expense&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_expense&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Integer"&gt;integer&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_daily_expenses&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-19 11:26:43&lt;/sys_created_on&gt;&lt;sys_id&gt;0c2676c2c30836104ea65c65e4013159&lt;/sys_id&gt;&lt;sys_name&gt;Expense&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_daily_expenses_u_expense&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-19 11:26:43&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-486993718</payload_hash>
+<remote_update_set display_value="Family Expenses">5e378fc6c34836104ea65c65e4013162</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-19 12:39:24</sys_created_on>
+<sys_id>1e37474ac34836104ea65c65e40131e8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19961ba00a80000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-19 12:39:24</sys_updated_on>
+<table>u_daily_expenses</table>
+<target_name>Daily Expenses.Expense</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>2d96364675083610b1bfcff08b44c949</update_guid>
+<update_guid_history>2d96364675083610b1bfcff08b44c949:-486993718,2196364644083610f561b5faba2a8b35:-486993718</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_family_expenses_u_number_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_number" label="Number" language="en" table="u_family_expenses"><sys_documentation action="INSERT_OR_UPDATE"><element>u_number</element><help/><hint/><label>Number</label><language>en</language><name>u_family_expenses</name><plural>Numbers</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 11:15:05</sys_created_on><sys_id>0fe33e42c30836104ea65c65e4013106</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Number</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_family_expenses_u_number_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 11:15:05</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1628312671</payload_hash>
+<remote_update_set display_value="Family Expenses">5e378fc6c34836104ea65c65e4013162</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-19 12:39:24</sys_created_on>
+<sys_id>1e37474ac34836104ea65c65e40131eb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19961af5a860000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-19 12:39:24</sys_updated_on>
+<table>u_family_expenses</table>
+<target_name>Family Expenses.Number</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>5be33e4241083610b44b00cb6e2b2b1d</update_guid>
+<update_guid_history>5be33e4241083610b44b00cb6e2b2b1d:1628312671</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_5df5f606c30836104ea65c65e4013154</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 11:23:58</sys_created_on><sys_id>5df5f606c30836104ea65c65e4013154</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_daily_expenses.u_daily_expenses_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_daily_expenses">01f5f606c30836104ea65c65e4013151</sys_security_acl><sys_update_name>sys_security_acl_role_5df5f606c30836104ea65c65e4013154</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 11:23:58</sys_updated_on><sys_user_role display_value="u_daily_expenses_user" name="u_daily_expenses_user">4df57206c30836104ea65c65e40131ba</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>1222371771</payload_hash>
+<remote_update_set display_value="Family Expenses">5e378fc6c34836104ea65c65e4013162</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-19 12:39:24</sys_created_on>
+<sys_id>1e37474ac34836104ea65c65e40131ee</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19961b77b060000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-19 12:39:24</sys_updated_on>
+<table>u_daily_expenses</table>
+<target_name>u_daily_expenses.u_daily_expenses_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>5df5f6069b08361039a57f5b8204d557</update_guid>
+<update_guid_history>5df5f6069b08361039a57f5b8204d557:1222371771</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_daily_expenses_sys_created_by_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="sys_created_by" label="Family Member Name" language="en" table="u_daily_expenses"><sys_documentation action="INSERT_OR_UPDATE"><element>sys_created_by</element><help/><hint/><label>Family Member Name</label><language>en</language><name>u_daily_expenses</name><plural>Family Member Names</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 11:23:59</sys_created_on><sys_id>9df5f606c30836104ea65c65e4013178</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Family Member Name</sys_name><sys_package/><sys_policy/><sys_scope/><sys_update_name>sys_documentation_u_daily_expenses_sys_created_by_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 11:58:41</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1925829645</payload_hash>
+<remote_update_set display_value="Family Expenses">5e378fc6c34836104ea65c65e4013162</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-19 12:39:24</sys_created_on>
+<sys_id>5237474ac34836104ea65c65e40131ea</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19961d742a20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-19 12:39:24</sys_updated_on>
+<table>u_daily_expenses</table>
+<target_name>Daily Expenses.Family Member Name</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>31edf28e8d0836102982d6ea03d35d52</update_guid>
+<update_guid_history>31edf28e8d0836102982d6ea03d35d52:-1925829645,bdedf28ec5083610988f58cd874c9949:-183215084</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_01f5f606c30836104ea65c65e4013151</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><decision_type>allow</decision_type><description>Default access control on u_daily_expenses</description><local_or_existing>Local</local_or_existing><name>u_daily_expenses</name><operation display_value="create">create</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 11:23:58</sys_created_on><sys_id>01f5f606c30836104ea65c65e4013151</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_daily_expenses</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_01f5f606c30836104ea65c65e4013151</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 11:23:58</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>1445911726</payload_hash>
+<remote_update_set display_value="Family Expenses">5e378fc6c34836104ea65c65e4013162</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-19 12:39:24</sys_created_on>
+<sys_id>5237474ac34836104ea65c65e40131ed</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19961b7792b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-19 12:39:24</sys_updated_on>
+<table>u_daily_expenses</table>
+<target_name>u_daily_expenses</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>09f5f6065708361025e4c0b8bb8b9e53</update_guid>
+<update_guid_history>09f5f6065708361025e4c0b8bb8b9e53:1445911726</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_module_c0033a02c30836104ea65c65e401310c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Family Expenditure">80033a02c30836104ea65c65e4013109</application><filter/><name>Family Expenses</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>u_family_expenses_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 11:11:03</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c0033a02c30836104ea65c65e401310c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Family Expenses</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_module_c0033a02c30836104ea65c65e401310c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 11:11:03</sys_updated_on><table>u_family_expenses</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+<payload_hash>-112925697</payload_hash>
+<remote_update_set display_value="Family Expenses">5e378fc6c34836104ea65c65e4013162</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-19 12:39:24</sys_created_on>
+<sys_id>5237474ac34836104ea65c65e40131f0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19961aba8ce0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-19 12:39:24</sys_updated_on>
+<table>u_family_expenses</table>
+<target_name>Family Expenses</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>44033a02df083610ff15c8c4643fde0e</update_guid>
+<update_guid_history>44033a02df083610ff15c8c4643fde0e:-112925697</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_family_expenses_u_amount</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_amount" table="u_family_expenses"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Amount&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_amount&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Integer"&gt;integer&lt;/internal_type&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_family_expenses&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-19 11:15:05&lt;/sys_created_on&gt;&lt;sys_id&gt;76837242c30836104ea65c65e4013163&lt;/sys_id&gt;&lt;sys_name&gt;Amount&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_family_expenses_u_amount&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-19 11:21:27&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-173483635</payload_hash>
+<remote_update_set display_value="Family Expenses">5e378fc6c34836104ea65c65e4013162</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-19 12:39:24</sys_created_on>
+<sys_id>5637474ac34836104ea65c65e40131e9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19961b52da90000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-19 12:39:24</sys_updated_on>
+<table>u_family_expenses</table>
+<target_name>Family Expenses.Amount</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>94653ec2660836103fc9bb5824a8530e</update_guid>
+<update_guid_history>94653ec2660836103fc9bb5824a8530e:-173483635,cfe3fa424d08361008da37aeea6f27e4:-1736310578</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_number_b6f7b2c6c30836104ea65c65e401316c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="u_daily_expenses">u_daily_expenses</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>DFE</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 11:34:21</sys_created_on><sys_id>b6f7b2c6c30836104ea65c65e401316c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>DFE</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_number_b6f7b2c6c30836104ea65c65e401316c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 11:34:21</sys_updated_on></sys_number></record_update>]]></payload>
+<payload_hash>1386995498</payload_hash>
+<remote_update_set display_value="Family Expenses">5e378fc6c34836104ea65c65e4013162</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-19 12:39:24</sys_created_on>
+<sys_id>5637474ac34836104ea65c65e40131ec</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19961c0fe960000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-19 12:39:24</sys_updated_on>
+<table/>
+<target_name>DFE</target_name>
+<type>Number</type>
+<update_domain>global</update_domain>
+<update_guid>61587ac6890836109f374c7bc23a8b37</update_guid>
+<update_guid_history>61587ac6890836109f374c7bc23a8b37:1386995498</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_98033a02c30836104ea65c65e4013136</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 11:11:04</sys_created_on><sys_id>98033a02c30836104ea65c65e4013136</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_family_expenses.u_family_expenses_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_family_expenses">54033a02c30836104ea65c65e4013133</sys_security_acl><sys_update_name>sys_security_acl_role_98033a02c30836104ea65c65e4013136</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 11:11:04</sys_updated_on><sys_user_role display_value="u_family_expenses_user" name="u_family_expenses_user">0c037ecec3c436104ea65c65e40131ff</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>1916387710</payload_hash>
+<remote_update_set display_value="Family Expenses">5e378fc6c34836104ea65c65e4013162</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-19 12:39:24</sys_created_on>
+<sys_id>5637474ac34836104ea65c65e40131ef</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19961abab050000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-19 12:39:24</sys_updated_on>
+<table>u_family_expenses</table>
+<target_name>u_family_expenses.u_family_expenses_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>1c033a023e08361013313239d5b06a38</update_guid>
+<update_guid_history>1c033a023e08361013313239d5b06a38:1916387710</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_daily_expenses_u_date</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_date" table="u_daily_expenses"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Date&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_date&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value=""&gt;glide_date&lt;/internal_type&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_daily_expenses&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-19 11:26:43&lt;/sys_created_on&gt;&lt;sys_id&gt;6606ba42c30836104ea65c65e4013137&lt;/sys_id&gt;&lt;sys_name&gt;Date&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_daily_expenses_u_date&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-19 11:58:40&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1077414947</payload_hash>
+<remote_update_set display_value="Family Expenses">5e378fc6c34836104ea65c65e4013162</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-19 12:39:24</sys_created_on>
+<sys_id>5a37474ac34836104ea65c65e40131e8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19961d741a20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-19 12:39:24</sys_updated_on>
+<table>u_daily_expenses</table>
+<target_name>Daily Expenses.Date</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>69edf28e880836107fc1b9d3657be140</update_guid>
+<update_guid_history>69edf28e880836107fc1b9d3657be140:-1077414947,6d9636468d08361060e085572e17bd2f:-323676426</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_family_expenses_u_expense_details_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_expense_details" label="Expense Details" language="en" table="u_family_expenses"><sys_documentation action="INSERT_OR_UPDATE"><element>u_expense_details</element><help/><hint/><label>Expense Details</label><language>en</language><name>u_family_expenses</name><plural>Expense Details</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 11:15:05</sys_created_on><sys_id>0fe33e42c30836104ea65c65e401310a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Expense Details</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_family_expenses_u_expense_details_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 11:15:05</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1496662792</payload_hash>
+<remote_update_set display_value="Family Expenses">5e378fc6c34836104ea65c65e4013162</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-19 12:39:24</sys_created_on>
+<sys_id>5a37474ac34836104ea65c65e40131eb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19961af5ae80000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-19 12:39:24</sys_updated_on>
+<table>u_family_expenses</table>
+<target_name>Family Expenses.Expense Details</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>5fe33e428e083610c7296d045582c522</update_guid>
+<update_guid_history>5fe33e428e083610c7296d045582c522:-1496662792</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_5c033a02c30836104ea65c65e401311c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 11:11:04</sys_created_on><sys_id>5c033a02c30836104ea65c65e401311c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_family_expenses.u_family_expenses_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_family_expenses">18033a02c30836104ea65c65e4013119</sys_security_acl><sys_update_name>sys_security_acl_role_5c033a02c30836104ea65c65e401311c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 11:11:04</sys_updated_on><sys_user_role display_value="u_family_expenses_user" name="u_family_expenses_user">0c037ecec3c436104ea65c65e40131ff</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>451786286</payload_hash>
+<remote_update_set display_value="Family Expenses">5e378fc6c34836104ea65c65e4013162</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-19 12:39:24</sys_created_on>
+<sys_id>5a37474ac34836104ea65c65e40131ee</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19961abaa7b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-19 12:39:24</sys_updated_on>
+<table>u_family_expenses</table>
+<target_name>u_family_expenses.u_family_expenses_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>dc033a0213083610a51ac7e6b14f0a1e</update_guid>
+<update_guid_history>dc033a0213083610a51ac7e6b14f0a1e:451786286</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_f4727ecec3c436104ea65c65e40131c9</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><is_extendable>false</is_extendable><label>Family Expenses</label><live_feed_enabled>false</live_feed_enabled><name>u_family_expenses</name><number_ref display_value="MFE">87a4be82c30836104ea65c65e4013126</number_ref><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 11:11:03</sys_created_on><sys_id>f4727ecec3c436104ea65c65e40131c9</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Family Expenses</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_db_object_f4727ecec3c436104ea65c65e40131c9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 11:18:59</sys_updated_on><update_access>false</update_access><user_role display_value="u_family_expenses_user" name="u_family_expenses_user">0c037ecec3c436104ea65c65e40131ff</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>2024536749</payload_hash>
+<remote_update_set display_value="Family Expenses">5e378fc6c34836104ea65c65e4013162</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-19 12:39:24</sys_created_on>
+<sys_id>5e37474ac34836104ea65c65e40131e7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19961b2ea030000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-19 12:39:24</sys_updated_on>
+<table>u_family_expenses</table>
+<target_name>Family Expenses</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>5cd432c29008361073f4d8b39068a1b7</update_guid>
+<update_guid_history>5cd432c29008361073f4d8b39068a1b7:2024536749,54033a0241083610d01f943303065266:-1119574101</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_daily_expenses_u_number_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_number" label="Number" language="en" table="u_daily_expenses"><sys_documentation action="INSERT_OR_UPDATE"><element>u_number</element><help/><hint/><label>Number</label><language>en</language><name>u_daily_expenses</name><plural>Numbers</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 11:26:43</sys_created_on><sys_id>25963646c30836104ea65c65e401313b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Number</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_daily_expenses_u_number_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 11:26:43</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>2077685543</payload_hash>
+<remote_update_set display_value="Family Expenses">5e378fc6c34836104ea65c65e4013162</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-19 12:39:24</sys_created_on>
+<sys_id>5e37474ac34836104ea65c65e40131ea</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19961ba00b40000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-19 12:39:24</sys_updated_on>
+<table>u_daily_expenses</table>
+<target_name>Daily Expenses.Number</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>e1963646b7083610dde0de090e40334b</update_guid>
+<update_guid_history>e1963646b7083610dde0de090e40334b:2077685543</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_5df5f606c30836104ea65c65e401315f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><decision_type>allow</decision_type><description>Default access control on u_daily_expenses</description><local_or_existing>Local</local_or_existing><name>u_daily_expenses</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 11:23:58</sys_created_on><sys_id>5df5f606c30836104ea65c65e401315f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_daily_expenses</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_5df5f606c30836104ea65c65e401315f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 11:23:58</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>188943710</payload_hash>
+<remote_update_set display_value="Family Expenses">5e378fc6c34836104ea65c65e4013162</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-19 12:39:24</sys_created_on>
+<sys_id>5e37474ac34836104ea65c65e40131ed</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19961b77b770000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-19 12:39:24</sys_updated_on>
+<table>u_daily_expenses</table>
+<target_name>u_daily_expenses</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>9df5f6064f08361028f2db3591681361</update_guid>
+<update_guid_history>9df5f6064f08361028f2db3591681361:188943710</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_b9783a86c30836104ea65c65e4013148</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="b9783a86c30836104ea65c65e4013148" sys_domain="global" table="u_daily_expenses" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>u_number</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 11:58:41</sys_created_on><sys_id>35edf28ec30836104ea65c65e4013158</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_daily_expenses" sys_domain="global" view="Default view">b9783a86c30836104ea65c65e4013148</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 11:58:41</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_date</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 11:58:41</sys_created_on><sys_id>b9edf28ec30836104ea65c65e4013158</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_daily_expenses" sys_domain="global" view="Default view">b9783a86c30836104ea65c65e4013148</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 11:58:41</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 11:58:41</sys_created_on><sys_id>31edf28ec30836104ea65c65e4013159</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_daily_expenses" sys_domain="global" view="Default view">b9783a86c30836104ea65c65e4013148</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 11:58:41</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_expense</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 11:58:41</sys_created_on><sys_id>b5edf28ec30836104ea65c65e4013159</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_daily_expenses" sys_domain="global" view="Default view">b9783a86c30836104ea65c65e4013148</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 11:58:41</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>sys_created_by</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 11:58:41</sys_created_on><sys_id>3dedf28ec30836104ea65c65e4013159</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_daily_expenses" sys_domain="global" view="Default view">b9783a86c30836104ea65c65e4013148</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 11:58:41</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 11:58:41</sys_created_on><sys_id>b1edf28ec30836104ea65c65e401315a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_daily_expenses" sys_domain="global" view="Default view">b9783a86c30836104ea65c65e4013148</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 11:58:41</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_comments</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 11:58:41</sys_created_on><sys_id>39edf28ec30836104ea65c65e401315a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_daily_expenses" sys_domain="global" view="Default view">b9783a86c30836104ea65c65e4013148</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 11:58:41</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>u_daily_expenses</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 11:34:56</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b9783a86c30836104ea65c65e4013148</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_daily_expenses</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_b9783a86c30836104ea65c65e4013148</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 11:34:56</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>-152081103</payload_hash>
+<remote_update_set display_value="Family Expenses">5e378fc6c34836104ea65c65e4013162</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-19 12:39:24</sys_created_on>
+<sys_id>5e37474ac34836104ea65c65e40131f0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19961d743260000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-19 12:39:24</sys_updated_on>
+<table>u_daily_expenses</table>
+<target_name>Daily Expenses</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>75edf28e3d0836105e4d8401c23f335c</update_guid>
+<update_guid_history>75edf28e3d0836105e4d8401c23f335c:-152081103,7d78fac6550836103dab583c228443c2:999903645,79783a8637083610ac530f3cb05e5c4b:-1871157989</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_family_expenses_null</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="" table="u_family_expenses"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Collection"&gt;collection&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_family_expenses&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-19 11:11:04&lt;/sys_created_on&gt;&lt;sys_id&gt;10033a02c30836104ea65c65e401313a&lt;/sys_id&gt;&lt;sys_name&gt;u_family_expenses&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_family_expenses_null&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-19 11:11:04&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-515162289</payload_hash>
+<remote_update_set display_value="Family Expenses">5e378fc6c34836104ea65c65e4013162</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-19 12:39:24</sys_created_on>
+<sys_id>9237474ac34836104ea65c65e40131e9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19961abad110000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-19 12:39:24</sys_updated_on>
+<table>u_family_expenses</table>
+<target_name>Family Expenses</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>1c033a02c1083610e14221a069aebd62</update_guid>
+<update_guid_history>1c033a02c1083610e14221a069aebd62:-515162289</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_number_87a4be82c30836104ea65c65e4013126</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="u_family_expenses">u_family_expenses</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>MFE</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 11:18:59</sys_created_on><sys_id>87a4be82c30836104ea65c65e4013126</sys_id><sys_mod_count>0</sys_mod_count><sys_name>MFE</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_number_87a4be82c30836104ea65c65e4013126</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 11:18:59</sys_updated_on></sys_number></record_update>]]></payload>
+<payload_hash>1595218520</payload_hash>
+<remote_update_set display_value="Family Expenses">5e378fc6c34836104ea65c65e4013162</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-19 12:39:24</sys_created_on>
+<sys_id>9237474ac34836104ea65c65e40131ec</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19961b2ebde0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-19 12:39:24</sys_updated_on>
+<table/>
+<target_name>MFE</target_name>
+<type>Number</type>
+<update_domain>global</update_domain>
+<update_guid>9cd432c206083610a8ea752a41aa2db9</update_guid>
+<update_guid_history>9cd432c206083610a8ea752a41aa2db9:1595218520</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_91f5f606c30836104ea65c65e4013163</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 11:23:58</sys_created_on><sys_id>91f5f606c30836104ea65c65e4013163</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_daily_expenses.u_daily_expenses_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_daily_expenses">5df5f606c30836104ea65c65e401315f</sys_security_acl><sys_update_name>sys_security_acl_role_91f5f606c30836104ea65c65e4013163</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 11:23:58</sys_updated_on><sys_user_role display_value="u_daily_expenses_user" name="u_daily_expenses_user">4df57206c30836104ea65c65e40131ba</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-980577256</payload_hash>
+<remote_update_set display_value="Family Expenses">5e378fc6c34836104ea65c65e4013162</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-19 12:39:24</sys_created_on>
+<sys_id>9237474ac34836104ea65c65e40131ef</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19961b77b9a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-19 12:39:24</sys_updated_on>
+<table>u_daily_expenses</table>
+<target_name>u_daily_expenses.u_daily_expenses_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>15f5f606e30836107761959b04856665</update_guid>
+<update_guid_history>15f5f606e30836107761959b04856665:-980577256</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_daily_expenses_u_comments</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_comments" table="u_daily_expenses"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Comments&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_comments&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;800&lt;/max_length&gt;&lt;name&gt;u_daily_expenses&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-19 11:30:08&lt;/sys_created_on&gt;&lt;sys_id&gt;d907fe82c30836104ea65c65e401317f&lt;/sys_id&gt;&lt;sys_name&gt;Comments&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_daily_expenses_u_comments&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-19 11:30:08&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1533596182</payload_hash>
+<remote_update_set display_value="Family Expenses">5e378fc6c34836104ea65c65e4013162</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-19 12:39:24</sys_created_on>
+<sys_id>9637474ac34836104ea65c65e40131e8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19961bd20f80000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-19 12:39:24</sys_updated_on>
+<table>u_daily_expenses</table>
+<target_name>Daily Expenses.Comments</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>6b57f28629083610cf6d83c38c216683</update_guid>
+<update_guid_history>6b57f28629083610cf6d83c38c216683:-1533596182,af577206890836100543ab64a890815d:-1533596182</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_family_expenses_u_date_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_date" label="Date" language="en" table="u_family_expenses"><sys_documentation action="INSERT_OR_UPDATE"><element>u_date</element><help/><hint/><label>Date</label><language>en</language><name>u_family_expenses</name><plural>Dates</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 11:15:05</sys_created_on><sys_id>83e33e42c30836104ea65c65e4013105</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Date</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_family_expenses_u_date_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 11:15:05</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1773235051</payload_hash>
+<remote_update_set display_value="Family Expenses">5e378fc6c34836104ea65c65e4013162</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-19 12:39:24</sys_created_on>
+<sys_id>9637474ac34836104ea65c65e40131eb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19961af5aac0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-19 12:39:24</sys_updated_on>
+<table>u_family_expenses</table>
+<target_name>Family Expenses.Date</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>57e33e42ca0836106bee191598a96b1f</update_guid>
+<update_guid_history>57e33e42ca0836106bee191598a96b1f:-1773235051</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_18033a02c30836104ea65c65e4013123</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 11:11:04</sys_created_on><sys_id>18033a02c30836104ea65c65e4013123</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_family_expenses.u_family_expenses_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_family_expenses">d0033a02c30836104ea65c65e4013120</sys_security_acl><sys_update_name>sys_security_acl_role_18033a02c30836104ea65c65e4013123</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 11:11:04</sys_updated_on><sys_user_role display_value="u_family_expenses_user" name="u_family_expenses_user">0c037ecec3c436104ea65c65e40131ff</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>1820978003</payload_hash>
+<remote_update_set display_value="Family Expenses">5e378fc6c34836104ea65c65e4013162</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-19 12:39:24</sys_created_on>
+<sys_id>9637474ac34836104ea65c65e40131ee</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19961abaac00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-19 12:39:24</sys_updated_on>
+<table>u_family_expenses</table>
+<target_name>u_family_expenses.u_family_expenses_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>98033a022f0836105bf240baedc6ff25</update_guid>
+<update_guid_history>98033a022f0836105bf240baedc6ff25:1820978003</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_daily_expenses_u_expense_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_expense" label="Expense" language="en" table="u_daily_expenses"><sys_documentation action="INSERT_OR_UPDATE"><element>u_expense</element><help/><hint/><label>Expense</label><language>en</language><name>u_daily_expenses</name><plural>Expenses</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 11:26:43</sys_created_on><sys_id>25963646c30836104ea65c65e4013139</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Expense</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_daily_expenses_u_expense_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 11:26:43</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1179946513</payload_hash>
+<remote_update_set display_value="Family Expenses">5e378fc6c34836104ea65c65e4013162</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-19 12:39:24</sys_created_on>
+<sys_id>9a37474ac34836104ea65c65e40131ea</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19961ba00cb0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-19 12:39:24</sys_updated_on>
+<table>u_daily_expenses</table>
+<target_name>Daily Expenses.Expense</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>e9963646740836108a0d987cf10e444e</update_guid>
+<update_guid_history>e9963646740836108a0d987cf10e444e:1179946513</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_54033a02c30836104ea65c65e4013133</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><decision_type>allow</decision_type><description>Default access control on u_family_expenses</description><local_or_existing>Local</local_or_existing><name>u_family_expenses</name><operation display_value="delete">delete</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 11:11:04</sys_created_on><sys_id>54033a02c30836104ea65c65e4013133</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_family_expenses</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_54033a02c30836104ea65c65e4013133</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 11:11:04</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-2029257999</payload_hash>
+<remote_update_set display_value="Family Expenses">5e378fc6c34836104ea65c65e4013162</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-19 12:39:24</sys_created_on>
+<sys_id>9a37474ac34836104ea65c65e40131ed</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19961abaae40000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-19 12:39:24</sys_updated_on>
+<table>u_family_expenses</table>
+<target_name>u_family_expenses</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>94033a02dc083610f5a6f34187019c35</update_guid>
+<update_guid_history>94033a02dc083610f5a6f34187019c35:-2029257999</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_adf47282c30836104ea65c65e4013149</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="adf47282c30836104ea65c65e4013149" sys_domain="global" table="u_family_expenses" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>u_number</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 11:21:27</sys_created_on><sys_id>e8653ec2c30836104ea65c65e4013114</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_family_expenses" sys_domain="global" view="Default view">adf47282c30836104ea65c65e4013149</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 11:21:27</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 11:21:27</sys_created_on><sys_id>60653ec2c30836104ea65c65e4013115</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_family_expenses" sys_domain="global" view="Default view">adf47282c30836104ea65c65e4013149</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 11:21:27</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_date</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 11:21:27</sys_created_on><sys_id>e4653ec2c30836104ea65c65e4013115</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_family_expenses" sys_domain="global" view="Default view">adf47282c30836104ea65c65e4013149</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 11:21:27</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_amount</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 11:21:27</sys_created_on><sys_id>6c653ec2c30836104ea65c65e4013115</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_family_expenses" sys_domain="global" view="Default view">adf47282c30836104ea65c65e4013149</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 11:21:27</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 11:21:27</sys_created_on><sys_id>e0653ec2c30836104ea65c65e4013116</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_family_expenses" sys_domain="global" view="Default view">adf47282c30836104ea65c65e4013149</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 11:21:27</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_expense_details</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 11:21:27</sys_created_on><sys_id>68653ec2c30836104ea65c65e4013116</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_family_expenses" sys_domain="global" view="Default view">adf47282c30836104ea65c65e4013149</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 11:21:27</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>u_family_expenses</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 11:19:38</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>adf47282c30836104ea65c65e4013149</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_family_expenses</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_adf47282c30836104ea65c65e4013149</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 11:19:38</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>-920597060</payload_hash>
+<remote_update_set display_value="Family Expenses">5e378fc6c34836104ea65c65e4013162</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-19 12:39:24</sys_created_on>
+<sys_id>9a37474ac34836104ea65c65e40131f0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19961b52e310000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-19 12:39:24</sys_updated_on>
+<table>u_family_expenses</table>
+<target_name>Family Expenses</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>64653ec2380836107b802551155aac18</update_guid>
+<update_guid_history>64653ec2380836107b802551155aac18:-920597060,f5f4f2c2e7083610388353ae60b47bd8:68955660,35f472822e0836100971bc710596734d:-1519261643</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_family_expenses_u_number</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_number" table="u_family_expenses"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Number&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value&gt;javascript:getNextObjNumberPadded();&lt;/default_value&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value display_value="Get Next Padded Number"&gt;fdcb83a85f220100a9ad2572f2b4773c&lt;/dynamic_default_value&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_number&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_family_expenses&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;true&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-19 11:15:05&lt;/sys_created_on&gt;&lt;sys_id&gt;f7537242c30836104ea65c65e4013162&lt;/sys_id&gt;&lt;sys_name&gt;Number&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_family_expenses_u_number&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-19 11:21:27&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;true&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>553194469</payload_hash>
+<remote_update_set display_value="Family Expenses">5e378fc6c34836104ea65c65e4013162</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-19 12:39:24</sys_created_on>
+<sys_id>9e37474ac34836104ea65c65e40131e9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19961b52d050000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-19 12:39:24</sys_updated_on>
+<table>u_family_expenses</table>
+<target_name>Family Expenses.Number</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>9865fac2e808361087e5daec1dfe46f6</update_guid>
+<update_guid_history>9865fac2e808361087e5daec1dfe46f6:553194469,9284ba826f083610912ee08602bbc66a:2003066954,47e37242ef08361041398db142f5ef9a:-1093949336</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_00033a02c30836104ea65c65e4013110</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><decision_type>allow</decision_type><description>Default access control on u_family_expenses</description><local_or_existing>Local</local_or_existing><name>u_family_expenses</name><operation display_value="create">create</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 11:11:03</sys_created_on><sys_id>00033a02c30836104ea65c65e4013110</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_family_expenses</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_00033a02c30836104ea65c65e4013110</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 11:11:03</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>1894493455</payload_hash>
+<remote_update_set display_value="Family Expenses">5e378fc6c34836104ea65c65e4013162</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-19 12:39:24</sys_created_on>
+<sys_id>9e37474ac34836104ea65c65e40131ec</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19961aba9270000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-19 12:39:24</sys_updated_on>
+<table>u_family_expenses</table>
+<target_name>u_family_expenses</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>88033a0296083610d640ba9368ed6313</update_guid>
+<update_guid_history>88033a0296083610d640ba9368ed6313:1894493455</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_application_80033a02c30836104ea65c65e4013109</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application"><sys_ui_application action="INSERT_OR_UPDATE"><active>true</active><hint/><name>Family Expenditure</name><order/><roles>u_family_expenses_user</roles><sys_class_name>sys_ui_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 11:11:03</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>80033a02c30836104ea65c65e4013109</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Family Expenditure</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_application_80033a02c30836104ea65c65e4013109</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 11:11:03</sys_updated_on></sys_ui_application></record_update>]]></payload>
+<payload_hash>1720360597</payload_hash>
+<remote_update_set display_value="Family Expenses">5e378fc6c34836104ea65c65e4013162</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-19 12:39:24</sys_created_on>
+<sys_id>9e37474ac34836104ea65c65e40131ef</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19961aba8a80000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-19 12:39:24</sys_updated_on>
+<table/>
+<target_name>Family Expenditure</target_name>
+<type>Application Menu</type>
+<update_domain>global</update_domain>
+<update_guid>8c033a02420836104242646da12c6f0a</update_guid>
+<update_guid_history>8c033a02420836104242646da12c6f0a:1720360597</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_88a57206c30836104ea65c65e4013138</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><is_extendable>false</is_extendable><label>Daily Expenses</label><live_feed_enabled>false</live_feed_enabled><name>u_daily_expenses</name><number_ref display_value="DFE">b6f7b2c6c30836104ea65c65e401316c</number_ref><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 11:23:57</sys_created_on><sys_id>88a57206c30836104ea65c65e4013138</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Daily Expenses</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_db_object_88a57206c30836104ea65c65e4013138</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 11:34:21</sys_updated_on><update_access>false</update_access><user_role display_value="u_daily_expenses_user" name="u_daily_expenses_user">4df57206c30836104ea65c65e40131ba</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>1511617573</payload_hash>
+<remote_update_set display_value="Family Expenses">5e378fc6c34836104ea65c65e4013162</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-19 12:39:24</sys_created_on>
+<sys_id>9e378fc6c34836104ea65c65e4013163</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19961c0fc070000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-19 12:39:24</sys_updated_on>
+<table>u_daily_expenses</table>
+<target_name>Daily Expenses</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>51587ac681083610ecadc480fc0eeb35</update_guid>
+<update_guid_history>51587ac681083610ecadc480fc0eeb35:1511617573,d5f5f606bb083610d5ddeb5428e4df91:-1988233970</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_daily_expenses_sys_created_by</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="sys_created_by" table="u_daily_expenses"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Family Member Name</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>sys_created_by</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>true</mandatory><max_length>40</max_length><name>u_daily_expenses</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 11:23:59</sys_created_on><sys_id>99f5f606c30836104ea65c65e4013178</sys_id><sys_name/><sys_package/><sys_policy/><sys_scope/><sys_update_name/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 11:58:41</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type/><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>1128982753</payload_hash>
+<remote_update_set display_value="Family Expenses">5e378fc6c34836104ea65c65e4013162</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-19 12:39:24</sys_created_on>
+<sys_id>d237474ac34836104ea65c65e40131e8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19961d742930000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-19 12:39:24</sys_updated_on>
+<table>u_daily_expenses</table>
+<target_name>Daily Expenses.Family Member Name</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>3dedf28eee0836105727362c2f6b9c50</update_guid>
+<update_guid_history>3dedf28eee0836105727362c2f6b9c50:1128982753,75edf28efc0836108f670f7b1e386f47:-549566757,ededf28eb7083610d4810ce3171d5442:-289828464</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_family_expenses_u_amount_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_amount" label="Amount" language="en" table="u_family_expenses"><sys_documentation action="INSERT_OR_UPDATE"><element>u_amount</element><help/><hint/><label>Amount</label><language>en</language><name>u_family_expenses</name><plural>Amounts</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 11:15:05</sys_created_on><sys_id>0fe33e42c30836104ea65c65e4013108</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Amount</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_family_expenses_u_amount_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 11:15:05</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1855070143</payload_hash>
+<remote_update_set display_value="Family Expenses">5e378fc6c34836104ea65c65e4013162</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-19 12:39:24</sys_created_on>
+<sys_id>d237474ac34836104ea65c65e40131eb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19961af5ad50000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-19 12:39:24</sys_updated_on>
+<table>u_family_expenses</table>
+<target_name>Family Expenses.Amount</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>53e33e4228083610afd9862b560d6d21</update_guid>
+<update_guid_history>53e33e4228083610afd9862b560d6d21:-1855070143</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_d0033a02c30836104ea65c65e4013120</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><decision_type>allow</decision_type><description>Default access control on u_family_expenses</description><local_or_existing>Local</local_or_existing><name>u_family_expenses</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 11:11:04</sys_created_on><sys_id>d0033a02c30836104ea65c65e4013120</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_family_expenses</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_d0033a02c30836104ea65c65e4013120</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 11:11:04</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-562536993</payload_hash>
+<remote_update_set display_value="Family Expenses">5e378fc6c34836104ea65c65e4013162</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-19 12:39:24</sys_created_on>
+<sys_id>d237474ac34836104ea65c65e40131ee</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19961abaaa20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-19 12:39:24</sys_updated_on>
+<table>u_family_expenses</table>
+<target_name>u_family_expenses</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>14033a0201083610ab9cee3b65c7bd22</update_guid>
+<update_guid_history>14033a0201083610ab9cee3b65c7bd22:-562536993</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_role_4df57206c30836104ea65c65e40131ba</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>u_daily_expenses_user</name><scoped_admin>false</scoped_admin><suffix/><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 11:23:57</sys_created_on><sys_id>4df57206c30836104ea65c65e40131ba</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_daily_expenses_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_user_role_4df57206c30836104ea65c65e40131ba</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 11:23:57</sys_updated_on></sys_user_role></record_update>]]></payload>
+<payload_hash>-1289708513</payload_hash>
+<remote_update_set display_value="Family Expenses">5e378fc6c34836104ea65c65e4013162</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-19 12:39:24</sys_created_on>
+<sys_id>d237474ac34836104ea65c65e40131f1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19961b778460000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-19 12:39:24</sys_updated_on>
+<table/>
+<target_name>u_daily_expenses_user</target_name>
+<type>Role</type>
+<update_domain>global</update_domain>
+<update_guid>0df57206800836108d2498cd7b6c82bd</update_guid>
+<update_guid_history>0df57206800836108d2498cd7b6c82bd:-1289708513</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_daily_expenses_u_date_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_date" label="Date" language="en" table="u_daily_expenses"><sys_documentation action="INSERT_OR_UPDATE"><element>u_date</element><help/><hint/><label>Date</label><language>en</language><name>u_daily_expenses</name><plural>Dates</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 11:26:43</sys_created_on><sys_id>a9963646c30836104ea65c65e4013137</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Date</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_daily_expenses_u_date_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 11:26:43</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-113928163</payload_hash>
+<remote_update_set display_value="Family Expenses">5e378fc6c34836104ea65c65e4013162</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-19 12:39:24</sys_created_on>
+<sys_id>d637474ac34836104ea65c65e40131ea</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19961ba00c00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-19 12:39:24</sys_updated_on>
+<table>u_daily_expenses</table>
+<target_name>Daily Expenses.Date</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>ed963646b50836109ea4ac1e054c064c</update_guid>
+<update_guid_history>ed963646b50836109ea4ac1e054c064c:-113928163</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_19f5f606c30836104ea65c65e4013166</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><decision_type>allow</decision_type><description>Default access control on u_daily_expenses</description><local_or_existing>Local</local_or_existing><name>u_daily_expenses</name><operation display_value="delete">delete</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 11:23:58</sys_created_on><sys_id>19f5f606c30836104ea65c65e4013166</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_daily_expenses</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_19f5f606c30836104ea65c65e4013166</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 11:23:58</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-1313060212</payload_hash>
+<remote_update_set display_value="Family Expenses">5e378fc6c34836104ea65c65e4013162</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-19 12:39:24</sys_created_on>
+<sys_id>d637474ac34836104ea65c65e40131ed</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19961b77bbb0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-19 12:39:24</sys_updated_on>
+<table>u_daily_expenses</table>
+<target_name>u_daily_expenses</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>59f5f6066608361064e9ee4f777ad168</update_guid>
+<update_guid_history>59f5f6066608361064e9ee4f777ad168:-1313060212</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_related_u_family_expenses_null</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_related sys_domain="global" table="u_family_expenses" version="2" view=""><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Family Expenses - Default view" name="u_family_expenses" related_list="NULL" sys_domain="global" view="Default view">ebc28302c34836104ea65c65e4013132</list_id><order_by/><position>0</position><related_list>REL:5c8f7ecec30836104ea65c65e4013169</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 12:20:06</sys_created_on><sys_id>a3c28302c34836104ea65c65e4013134</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 12:20:06</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list action="INSERT_OR_UPDATE"><calculated_name>Family Expenses - Default view</calculated_name><filter/><name>u_family_expenses</name><order_by/><position/><related_list/><sys_class_name>sys_ui_related_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 12:20:06</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ebc28302c34836104ea65c65e4013132</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Family Expenses - Default view</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_related_u_family_expenses_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 12:20:06</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_related_list></sys_ui_related></record_update>]]></payload>
+<payload_hash>665436446</payload_hash>
+<remote_update_set display_value="Family Expenses">5e378fc6c34836104ea65c65e4013162</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-19 12:39:24</sys_created_on>
+<sys_id>d637474ac34836104ea65c65e40131f0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19961eadf200000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-19 12:39:24</sys_updated_on>
+<table>u_family_expenses</table>
+<target_name>Family Expenses</target_name>
+<type>Related Lists</type>
+<update_domain>global</update_domain>
+<update_guid>abc2830210483610456d4d8529fe7e35</update_guid>
+<update_guid_history>abc2830210483610456d4d8529fe7e35:665436446</update_guid_history>
+<update_set display_value=""/>
+<view>Default view</view>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_family_expenses_u_expense_details</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_expense_details" table="u_family_expenses"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Expense Details&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_expense_details&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;800&lt;/max_length&gt;&lt;name&gt;u_family_expenses&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-19 11:15:05&lt;/sys_created_on&gt;&lt;sys_id&gt;c5a33242c30836104ea65c65e4013191&lt;/sys_id&gt;&lt;sys_name&gt;Expense Details&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_family_expenses_u_expense_details&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-19 11:15:05&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1656209466</payload_hash>
+<remote_update_set display_value="Family Expenses">5e378fc6c34836104ea65c65e4013162</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-19 12:39:24</sys_created_on>
+<sys_id>da37474ac34836104ea65c65e40131e9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19961af5a770000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-19 12:39:24</sys_updated_on>
+<table>u_family_expenses</table>
+<target_name>Family Expenses.Expense Details</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>93e33e4280083610932e8efc6a714b1c</update_guid>
+<update_guid_history>93e33e4280083610932e8efc6a714b1c:1656209466,43e3fa420b083610455fc5c118b0cbea:1656209466</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_da048746c34836104ea65c65e401316a</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;u_daily_expenses&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Family Expenses BR&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[
+(function executeRule(current, previous /*null when async*/) {
+
+
+var FamilyExpenses = new GlideRecord('u_family_expenses');
+
+FamilyExpenses.addQuery('u_date',current.u_date);
+
+FamilyExpenses.query();
+
+if(FamilyExpenses.next())
+
+{
+
+FamilyExpenses.u_amount += current.u_expense;
+
+FamilyExpenses.u_expense_details += "&gt;"+current.u_comments+":"+"Rs."+current.u_expense+"/-";
+
+FamilyExpenses.update();
+
+}
+
+else
+
+{
+
+var NewFamilyExpenses = new GlideRecord('u_family_expenses');
+
+NewFamilyExpenses.u_date = current.u_date;
+
+NewFamilyExpenses.u_amount = current.u_expense;
+
+NewFamilyExpenses.u_expense_details += "&gt;"+current.u_comments+":"+"Rs."+current.u_expense+"/-";
+
+NewFamilyExpenses.insert();
+
+}
+
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-19 12:30:02&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;da048746c34836104ea65c65e401316a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Family Expenses BR&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_da048746c34836104ea65c65e401316a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-19 12:30:02&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=da048746c34836104ea65c65e401316a"/&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;da048746c34836104ea65c65e401316a&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-19 12:30:01&lt;/sys_created_on&gt;&lt;sys_id&gt;78158746c34836104ea65c65e4013173&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-19 12:30:01&lt;/sys_updated_on&gt;&lt;table&gt;sys_script&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-501185694</payload_hash>
+<remote_update_set display_value="Family Expenses">5e378fc6c34836104ea65c65e4013162</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-19 12:39:24</sys_created_on>
+<sys_id>da37474ac34836104ea65c65e40131ec</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19961f3f7b30000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-19 12:39:24</sys_updated_on>
+<table>u_daily_expenses</table>
+<target_name>Family Expenses BR</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>05154b869a483610ab2652350ac0e882</update_guid>
+<update_guid_history>05154b869a483610ab2652350ac0e882:-501185694</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_dc033a02c30836104ea65c65e4013114</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 11:11:04</sys_created_on><sys_id>dc033a02c30836104ea65c65e4013114</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_family_expenses.u_family_expenses_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_family_expenses">00033a02c30836104ea65c65e4013110</sys_security_acl><sys_update_name>sys_security_acl_role_dc033a02c30836104ea65c65e4013114</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 11:11:04</sys_updated_on><sys_user_role display_value="u_family_expenses_user" name="u_family_expenses_user">0c037ecec3c436104ea65c65e40131ff</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-682772962</payload_hash>
+<remote_update_set display_value="Family Expenses">5e378fc6c34836104ea65c65e4013162</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-19 12:39:24</sys_created_on>
+<sys_id>da37474ac34836104ea65c65e40131ef</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19961abaa2c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-19 12:39:24</sys_updated_on>
+<table>u_family_expenses</table>
+<target_name>u_family_expenses.u_family_expenses_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>90033a029b083610d06319aa3f168818</update_guid>
+<update_guid_history>90033a029b083610d06319aa3f168818:-682772962</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_cdf57206c30836104ea65c65e40131c0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Family Expenditure">8403becec3c436104ea65c65e401310a</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Daily Expenses</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>u_daily_expenses</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>u_daily_expenses_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 11:23:57</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>cdf57206c30836104ea65c65e40131c0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Daily Expenses</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_cdf57206c30836104ea65c65e40131c0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 11:23:57</sys_updated_on><timeline_page/><title>Daily Expenses</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>-327512653</payload_hash>
+<remote_update_set display_value="Family Expenses">5e378fc6c34836104ea65c65e4013162</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-19 12:39:24</sys_created_on>
+<sys_id>da378fc6c34836104ea65c65e4013163</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19961b778b20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-19 12:39:24</sys_updated_on>
+<table>u_daily_expenses</table>
+<target_name>Daily Expenses</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>0df572068b0836104c7ea9de5afb28c2</update_guid>
+<update_guid_history>0df572068b0836104c7ea9de5afb28c2:-327512653</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_daily_expenses_u_number</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_number" table="u_daily_expenses"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Number&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value&gt;javascript:getNextObjNumberPadded();&lt;/default_value&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value display_value="Get Next Padded Number"&gt;fdcb83a85f220100a9ad2572f2b4773c&lt;/dynamic_default_value&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_number&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_daily_expenses&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;true&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-19 11:26:43&lt;/sys_created_on&gt;&lt;sys_id&gt;fef53a06c30836104ea65c65e40131ae&lt;/sys_id&gt;&lt;sys_name&gt;Number&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_daily_expenses_u_number&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-19 11:58:40&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;true&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-308614251</payload_hash>
+<remote_update_set display_value="Family Expenses">5e378fc6c34836104ea65c65e4013162</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-19 12:39:24</sys_created_on>
+<sys_id>de37474ac34836104ea65c65e40131e8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19961d7411a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-19 12:39:24</sys_updated_on>
+<table>u_daily_expenses</table>
+<target_name>Daily Expenses.Number</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>adedf28e5a083610439cbf7c8558873a</update_guid>
+<update_guid_history>adedf28e5a083610439cbf7c8558873a:-308614251,10d7be86ed08361053ada5e0beaaeb91:1056800410,2d9676c2e5083610bc2c3b75604e6869:-942701380</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_family_expenses__en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="" label="Family Expenses" language="en" table="u_family_expenses"><sys_documentation action="INSERT_OR_UPDATE"><element/><help/><hint/><label>Family Expenses</label><language>en</language><name>u_family_expenses</name><plural>Family Expenses</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 11:11:04</sys_created_on><sys_id>50033a02c30836104ea65c65e4013144</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Family Expenses</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_family_expenses__en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 11:11:04</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-708268744</payload_hash>
+<remote_update_set display_value="Family Expenses">5e378fc6c34836104ea65c65e4013162</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-19 12:39:24</sys_created_on>
+<sys_id>de37474ac34836104ea65c65e40131eb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19961abad290000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-19 12:39:24</sys_updated_on>
+<table>u_family_expenses</table>
+<target_name>Family Expenses</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>58033a0215083610d974ab8ca7be4164</update_guid>
+<update_guid_history>58033a0215083610d974ab8ca7be4164:-708268744</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_5df5f606c30836104ea65c65e4013169</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-19 11:23:58</sys_created_on><sys_id>5df5f606c30836104ea65c65e4013169</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_daily_expenses.u_daily_expenses_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_daily_expenses">19f5f606c30836104ea65c65e4013166</sys_security_acl><sys_update_name>sys_security_acl_role_5df5f606c30836104ea65c65e4013169</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-19 11:23:58</sys_updated_on><sys_user_role display_value="u_daily_expenses_user" name="u_daily_expenses_user">4df57206c30836104ea65c65e40131ba</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>1020339088</payload_hash>
+<remote_update_set display_value="Family Expenses">5e378fc6c34836104ea65c65e4013162</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-19 12:39:24</sys_created_on>
+<sys_id>de37474ac34836104ea65c65e40131ee</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19961b77bd90000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-19 12:39:24</sys_updated_on>
+<table>u_daily_expenses</table>
+<target_name>u_daily_expenses.u_daily_expenses_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>ddf5f60636083610e636948398ab076b</update_guid>
+<update_guid_history>ddf5f60636083610e636948398ab076b:1020339088</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
